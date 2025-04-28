@@ -147,7 +147,7 @@ const firebaseConfig = {
           if(usersCreated.length<=0){
             document.getElementById("userscreatedgroupsempty").style.display="flex"
             document.getElementById("usercreatedslidercontainer").style.display="none"
-            document.getElementById("theloadingitems3").style.display="flex"
+            document.getElementById("theloadingitems3").style.display="none"
             
           }
           else{
@@ -193,14 +193,14 @@ const firebaseConfig = {
               theCreatedGroupSlider.append(groupslider2)
 
             }
-            document.getElementById("theloadingitems3").style.display="flex"
+            document.getElementById("theloadingitems3").style.display="none"
             
           }
 
           if(usersconnected.length<=0){
             document.getElementById("usersconnectedgroupsempty").style.display="flex"
             document.getElementById("usersconnectedsidecontainer").style.display="none"
-            document.getElementById("theloadingitems2").style.display="flex"
+            document.getElementById("theloadingitems2").style.display="none"
             
           }
           else{
@@ -246,14 +246,14 @@ const firebaseConfig = {
               theConnectedGroupSlider.append(groupslider)
 
             }
-            document.getElementById("theloadingitems2").style.display="flex"
+            document.getElementById("theloadingitems2").style.display="none"
             
           }
 
           if(usersSuggested.length<=0){
             document.getElementById("userscreatedgroupsempty").style.display="flex"
             document.getElementById("usercreatedslidercontainer").style.display="none"
-            document.getElementById("theloadingitems1").style.display="flex"
+            document.getElementById("theloadingitems1").style.display="none"
             
           }
           else{
@@ -299,7 +299,7 @@ const firebaseConfig = {
               thesuggestedGroupSlider.append(groupslider3)
 
             }
-            document.getElementById("theloadingitems1").style.display="flex"
+            document.getElementById("theloadingitems1").style.display="none"
             
           }
       
